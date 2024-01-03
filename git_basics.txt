@@ -44,3 +44,8 @@ Pull requests facilitate code review, where team members can review and discuss 
 Continuous Integration (CI):
 CI tools (e.g., Jenkins, Travis CI) integrate with Git to automatically build and test code whenever changes are pushed. This ensures the stability of the codebase.
 
+RESOURCES
+GitHub Guides: https://guides.github.com/
+GitLab Documentation: https://docs.gitlab.com/
+BitBucket Documentation: https://support.atlassian.com/bitbucket/
+https://careerkarma.com/blog/git-terminology/
