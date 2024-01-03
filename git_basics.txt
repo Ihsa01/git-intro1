@@ -1,0 +1,46 @@
+GIT
+
+Git is a free and open source distributed version control system designed to handle projects with speed and efficiency.
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+Repository : A storage location for your project's files and their entire revision history, managed by Git.
+	You typically obtain a Git repository in one of two ways:
+	1. You can take a local directory that is currently not under version control, and turn it into a Git repository, or
+	2. You can clone an existing Git repository from elsewhere.	
+Commit: A snapshot of your project's files at a specific point in time, capturing changes and creating a record in the repository's history.
+Branch: An independent line of development within a repository, allowing you to experiment with different features or bug fixes without affecting the main code.
+Merge: The process of combining changes from one branch into another, often used to integrate feature branches into the main branch.
+Pull Request: A request to merge changes from one branch into another, typically used in collaborative workflows to review and discuss code changes before integration.
+Push: Updates a remote branch with the commits made to the current branch. You are literally "pushing" your changes onto the remote.
+Fork: Creates a copy of a repository.
+
+BASIC GIT COMMANDS
+
+git init: Initializes a new Git repository in a directory.
+git status: Shows the current status of files (tracked, untracked, modified).
+git add: Adds files to the staging area for the next commit.
+git commit: Commits staged changes with a descriptive message.
+git push: Pushes commits from your local repository to a remote repository.
+git pull: Fetches and merges changes from a remote repository into your local repository.
+git branch: Lists, creates, or deletes branches.
+git merge: Merges branches together.
+
+GITHUB, GITLAB, GITBUCKET
+
+Web-based platforms for hosting Git repositories. They allow you to store, manage, and collaborate on code projects using the version control system Git. 
+
+GITHUB: It only hosts projects that use the Git VCS. It is free for public repositories and for private ones it is paid. GitHub is written using Ruby and Erlang
+GITLAB: It does almost everything that GitHub does, so it is like Github, but here we have free private repositories that Github doesn’t. GitLab Community Edition is free and open-sourced. Here we can set and modify people’s permissions according to their roles. In this, you can attach any file to any issue. You can’t do this inside GitHub.
+GITBUCKET: It supports the Mercurial VCS(version control system) in addition to Git. It is not open source but by buying the self-hosted version the full source code is provided. Bitbucket is written in Python and uses the Django web framework. We get free private repositories on Bitbucket
+
+INDUSTRIAL PRACTICES OF USING GIT
+
+Collaborative Development:
+Git enables multiple developers to work on a project simultaneously. Branching allows developers to work on isolated features or bug fixes without interfering with each other.
+
+Code Review:
+Pull requests facilitate code review, where team members can review and discuss proposed changes before merging them into the main branch.
+
+Continuous Integration (CI):
+CI tools (e.g., Jenkins, Travis CI) integrate with Git to automatically build and test code whenever changes are pushed. This ensures the stability of the codebase.
+
